@@ -34,3 +34,14 @@ Pulls relevent information about the tracks of interest
 
 ### Troubleshooting
 Other values from the Tracks.csv file can be added.
+
+## MeasureAreaAndIntensity.ijm
+Automatically measure the area and intensity. If image has multiple channels it will analyse all the channels.
+
+### How to use
+1. Run macro
+2. Use dialog box to select input folder, output folder and file suffix
+3. Saves results and rois to output folder
+
+### Troubleshooting
+Uses same automatic threshold for everything, may need to be different for each image/channel
