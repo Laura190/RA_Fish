@@ -9,7 +9,6 @@ track_mean_speed=newArray(n_tracks);
 n_nans=0;
 for (i = 0; i < n_tracks ; i++) {
 	track=tracks[i];
-	print(track);
 	if (!isNaN(track)) {
 		count = 0;
 		while (Table.get("TRACK_ID", count)!=track && count < total_tracks-1) { 
